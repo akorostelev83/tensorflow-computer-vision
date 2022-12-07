@@ -1,3 +1,3 @@
-# This is a repository for a computer vision system using Tensorflow and Keras to classify W2 tax documents
+# Tensorflow W2 Computer Vision System Using TensorFlow
 
-view Jupyter notebook [Jupyter Notebook]([https://www.github.com](https://github.com/akorostelev83/computer-vision/blob/main/tensorflow-computer-vision-classification-notebook.ipynb))
+[click here to view notebook](https://github.com/akorostelev83/tensorflow-computer-vision/blob/main/tensorflow-computer-vision-classification-notebook.ipynb)
