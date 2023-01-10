@@ -194,12 +194,12 @@ def print_model_results(y_true_categorical,y_predictions):
         y_predictions, 
         target_names=['adp1','adp2','irs1','irs2']))
 
-#print('downloading kaggle dataset as zip')
-#download_kaggle_dataset()
-#print('extracting data from zipped file')
-#extract_kaggle_dataset()
-#print('converting pdfs to images')
-#convert_pdfs_to_images()
+print('downloading kaggle dataset as zip')
+download_kaggle_dataset()
+print('extracting data from zipped file')
+extract_kaggle_dataset()
+print('converting pdfs to images')
+convert_pdfs_to_images()
 
 training_files,test_files = get_training_test_file_paths()
 X_train, y_train = get_training_features_labels(training_files)
