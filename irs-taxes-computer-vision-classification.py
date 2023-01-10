@@ -30,7 +30,7 @@ def download_kaggle_dataset():
 def extract_kaggle_dataset():
     from zipfile import ZipFile
     file_name = "C:/datasets/fake_w2/W2_Multi_Clean_DataSet_02.ZIP"
-    os.chdir('C:/Users/SUPREME/Documents/SurePrep/')
+    os.chdir('')
 
     with ZipFile(file_name, 'r') as zip:	
         zip.printdir()	
