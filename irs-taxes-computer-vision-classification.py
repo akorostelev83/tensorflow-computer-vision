@@ -14,8 +14,8 @@ kaggle_w2_folder = 'C:/Users/SUPREME/Documents/SurePrep/w2_samples_multi_clean/'
 kaggle_w2_images_folder = 'C:/Users/SUPREME/Documents/SurePrep/w2_samples_multi_clean_images/'
 
 def download_kaggle_dataset():
-    os.environ['KAGGLE_USERNAME'] = 'andreik1000'
-    os.environ['KAGGLE_KEY'] = 'ef0ff9173d70f29a62f46a665a5b4d1b'
+    os.environ['KAGGLE_USERNAME'] = '<>'
+    os.environ['KAGGLE_KEY'] = '<>'
 
     from kaggle.api.kaggle_api_extended import KaggleApi
 
