@@ -10,8 +10,8 @@ import tensorflow as tf
 from sklearn.metrics import accuracy_score, classification_report
 
 
-kaggle_w2_folder = 'C:/Users/SUPREME/Documents/SurePrep/w2_samples_multi_clean/'
-kaggle_w2_images_folder = 'C:/Users/SUPREME/Documents/SurePrep/w2_samples_multi_clean_images/'
+kaggle_w2_folder = './w2_samples_multi_clean/'
+kaggle_w2_images_folder = './w2_samples_multi_clean_images/'
 
 def download_kaggle_dataset():
     os.environ['KAGGLE_USERNAME'] = '<>'
